@@ -1,0 +1,82 @@
+@font-face {
+    font-family: gotham-bold;
+    src: url(../fonts/gotham-bold.TTF);
+}
+@font-face {
+    font-family: gotham-light;
+    src: url(../fonts/gotham-light.OTF);
+}
+
+@font-face {
+    font-family: ProductSans-Bold;
+    src: url(../fonts/ProductSans-Bold.ttf);
+}
+
+@font-face {
+    font-family: ProductSans-Regular;
+    src: url(../fonts/ProductSans-Regular.ttf);
+}
+
+*{
+    text-decoration: none;
+}
+
+body{
+    background-color: #aaaaaa;
+    
+}
+
+header{
+    margin: 0 auto;
+    height: 6.25rem;
+    background-color: #fff;
+    font-family: gotham-bold, gothan-light;
+}
+
+header > div{
+    border: 2px solid red;
+}
+
+header nav ul a{
+    color: #706F6F;
+    font-family: Gotham Bold;
+    font-size: 0.77206rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.banner{
+    
+    height: 20.875rem;
+}
+
+.como-funciona{
+    height: 20rem;
+    background: #27B6B0;
+    color: #fff;
+}
+
+.planos{
+    background: #FFF;
+    height: 20rem;
+}
+
+.faq{
+    background: #5B57A2;
+    height: 30.75rem;
+    color: #fff;
+}
+
+.contato{
+    background: #FFF;
+    height: 20.375rem;
+}
+
+footer{
+    background: #373736;
+    height: 26.5625rem;
+    color: #FFF;
+}
