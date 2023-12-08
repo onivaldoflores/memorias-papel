@@ -1,7 +1,10 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css");
+
 @font-face {
     font-family: gotham-bold;
     src: url(../fonts/gotham-bold.TTF);
 }
+
 @font-face {
     font-family: gotham-light;
     src: url(../fonts/gotham-light.OTF);
@@ -17,66 +20,300 @@
     src: url(../fonts/ProductSans-Regular.ttf);
 }
 
-*{
-    text-decoration: none;
+
+
+/*************************MINHAS PERSONALIZAÇÕES*************************/
+
+.social-icons-color {
+    color: #5B57A2;
 }
 
-body{
-    background-color: #aaaaaa;
+.seta-icons{
+    color: #268E86 !important;
+}
+
+.bg-primary{
+    background-color: #5B57A2 !important;
+}
+
+.btn-primary {
+    background-color: #5B57A2;
+    border-color: #5B57A2;
+}
+
+.btn-primary:hover {
+    background-color: #27B6B0;
+    border-color: #27B6B0;
+}
+
+.btn-primary:active {
+    background-color: #27B6B0 !important;
+    border-color: #27B6B0 !important;
+}
+
+.btn-primary:focus-visible {
+    background-color: #27B6B0;
+    border-color: #27B6B0;
+}
+
+.bg-secundary {
+    background-color: #27B6B0 !important;
+}
+
+.btn-secundary {
+    background-color: #27B6B0;
+    border-color: #27B6B0;
+}
+
+.btn-secundary:hover {
+    background-color: #5B57A2;
+    border-color: #5B57A2;
+}
+
+.btn-secundary:active {
+    background-color: #5B57A2 !important;
+    border-color: #5B57A2 !important;
+}
+
+.btn-secundary:focus-visible {
+    background-color: #5B57A2;
+    border-color: #5B57A2;
+}
+
+.bg-warning{
+    background-color: #F08372 !important;
+}
+
+.btn-warning {
+    background-color: #F08372;
+    border-color: #F08372;
+}
+
+.btn-warning:hover {
+    background-color: #5B57A2;
+    border-color: #5B57A2;
+}
+
+.btn-warning:active {
+    background-color: #5B57A2 !important;
+    border-color: #5B57A2 !important;
+}
+
+.btn-warning:focus-visible {
+    background-color: #5B57A2;
+    border-color: #5B57A2;
+}
+
+/****PERSONALIZAÇÕES ACCORDION****/
+.accordion{
+    background: transparent;    
+}
+
+.accordion-item{
+    background-color: #5B57A2 !important;
+    border: none;
+    color: #fff;
+    font-size: 1.1rem;
     
 }
 
-header{
-    margin: 0 auto;
-    height: 6.25rem;
-    background-color: #fff;
-    font-family: gotham-bold, gothan-light;
+.accordion-body{
+    
 }
 
-header > div{
-    border: 2px solid red;
+.accordion-header{
+    border: none;
 }
 
-header nav ul a{
-    color: #706F6F;
-    font-family: Gotham Bold;
+.accordion-header:focus-visible{
+    border: none;
+}
+
+.accordion-button{
+    background: transparent;
+    color: #fff;
+    outline: none;
+    font-size: 1.3rem;
+}
+
+.accordion-button:focus{
+    border: 1px solid #5B57A2;
+    box-shadow: none;
+}
+
+.accordion-button:focus-visible{
+    border: none;
+}
+
+.accordion-button:not(.collapsed){
+    color: #fff;
+    background-color: #5B57A2;
+    box-shadow: none;
+}
+
+/* alterar a seta no final. Vídeo que utilizei: https://www.youtube.com/watch?v=2PlpX9HKDMc*/
+.accordion-button::after{
+    background-image: none;
+    font-family: fontawesome;
+    content: "\1F893";
+    color: #fff;
+    width: auto;
+    height: auto;
+}
+
+.accordion-button:not(.collapsed)::after{
+    background-image: none;
+}
+
+
+/**************************************************/
+
+/****TOPO****/
+
+.topo header img{
+    width: 12rem;
+}
+
+.topo header ul li a{
+    color: #706F6F !important;
+    font-family: gotham-bold;
     font-size: 0.77206rem;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
     text-transform: uppercase;
-    text-decoration: none;
 }
 
-.banner{
-    
-    height: 20.875rem;
+.topo header ul li a:focus{
+    color: #5B57A2;
 }
 
-.como-funciona{
-    height: 20rem;
-    background: #27B6B0;
-    color: #fff;
+
+/************/
+
+/***** SWIPER *******/
+.swiper {
+    width: 100%;
+    height: 100%;
 }
 
-.planos{
-    background: #FFF;
-    height: 20rem;
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.faq{
-    background: #5B57A2;
-    height: 30.75rem;
-    color: #fff;
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
-.contato{
-    background: #FFF;
-    height: 20.375rem;
+/************/
+
+
+/****SECTION COMO FUNCIONA****/
+
+main h1{
+    font-family: ProductSans-Bold;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
 }
 
-footer{
-    background: #373736;
-    height: 26.5625rem;
-    color: #FFF;
+.como-funciona > p{
+    font-family: ProductSans-Regular;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
+
+.text-icons{
+    font-family: ProductSans-Regular;
+    font-size: 1.3125rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+
+/************/
+
+/****PLANOS HOME****/
+
+.planos-home h1{
+    color: #575656;
+    font-family: ProductSans-Bold;
+}
+
+.planos-home h2{
+    font-family: ProductSans-Bold;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.fundo-plano-home{
+    background-color: #ededed;
+    padding: 1.25rem;
+    border-radius: 0.75rem;
+}
+
+.fundo-plano-home h2{
+    margin: -1.25rem -1.25rem 1rem -1.25rem;
+    padding: 1rem;
+    border-radius: 0.75rem 0.75rem 0rem 0rem;
+    font-size: 2rem;
+}
+
+.plano-home-qtd-fotos{
+    font-family: ProductSans-Regular;
+    color: #575656;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.plano-home-valor{
+    font-family: ProductSans-Bold;
+    color: #575656;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.plano-home-tx-entrega{
+    font-family: ProductSans-Regular;
+    color: #575656;
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+
+
+/************/
+
+/****DÚVIDAS FREQUENTES HOME****/
+
+.duvidas-home h2{
+    font-family: ProductSans-Bold;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+
+/************/
+
+/****XXXXXXXXXX****/
