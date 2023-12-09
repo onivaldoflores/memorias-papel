@@ -246,7 +246,7 @@ main h1{
 
 /************/
 
-/****PLANOS HOME****/
+/****SECTION PLANOS HOME****/
 
 .planos-home h1{
     color: #575656;
@@ -303,9 +303,9 @@ main h1{
 
 /************/
 
-/****DÚVIDAS FREQUENTES HOME****/
+/**** SECTION DÚVIDAS FREQUENTES HOME****/
 
-.duvidas-home h2{
+.duvidas-home h1{
     font-family: ProductSans-Bold;
     font-size: 2rem;
     font-style: normal;
@@ -316,4 +316,30 @@ main h1{
 
 /************/
 
-/****XXXXXXXXXX****/
+/****SECTION CONTATO****/
+
+.contato-home h1{
+    font-family: ProductSans-Bold;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.color-contact-home{
+    color:#5F5E5E;
+    font-size: 1.2rem;
+}
+
+.color-contact-home i{
+    font-size: 1.5rem;
+}
+
+.color-contact-home a{
+    color:#5F5E5E;
+    text-decoration: none;
+}
+
+/************/
+
+/****SECTION CONTATO****/

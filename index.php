@@ -162,7 +162,7 @@
             <section class="duvidas-home bg-primary text-white text-center p-4">
                 <div class="container">
                     <div class="row">
-                        <h2 class="p-4">DÚVIDAS FREQUENTES</h2>
+                        <h1 class="p-4">DÚVIDAS FREQUENTES</h1>
                         
                         <div class="accordion " id="accordionExample">
                             <div class="accordion-item">
@@ -264,8 +264,40 @@
             <!------------------------>
 
             <!---------CONTATO--------------->
-            <section>
-                <h2>CONTATO</h2>
+            <section class="contato-home text-center p-4">
+                <h1 class="p-4">CONTATO</h1>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12 col-lg-5 text-start p-3 color-contact-home">
+                            <p class="align-text-top"><i class='bx bxl-whatsapp p-1' ></i> <label><a href="https://web.whatsapp.com/send?phone=5543991811698">+55 (43) 99181-1698</a></label></p>
+                            <p><i class='bx bx-envelope p-1' ></i> <label> contato@memoriasnopapel.com.br</label></p>
+                            <p><i class='bx bxl-facebook-circle p-1' > </i><label> @memoriasnopapel</label></p>
+                            <p class="align-text-top"><i class='bx bx-location-plus p-1' ></i> <label> Av. Souza Naves, 945 - Sala 13 <br> Centro | Ivaiporã | PR | CEP 86.870-000</label></p>
+                            <p><i class='bx bxl-instagram p-1' ></i> <label> @memoriasnopapell</label></p>
+                        </div>
+                        <div class="col">
+                            <form action="">
+                                <div class="mb-3">
+                                    <input type="text" class="form-control" name="" id="" placeholder="NOME">
+                                </div>
+                                <div class="row mb-3">
+                                    <div class="col">
+                                        <input type="text" class="form-control" placeholder="E-MAIL">
+                                    </div>
+                                    <div class="col">
+                                        <input type="text" class="form-control" placeholder="WHATSAPP">
+                                    </div>
+                                </div>        
+                                <div class="mb-3">
+                                <textarea class="form-control" name="" id=""  rows="5" placeholder="MENSAGEM"></textarea>
+                                </div>             
+                                <div class="col-12 justify-content-end">
+                                    <button type="submit" class="btn btn-primary">Enviar</button>
+                                </div>                                           
+                            </form>
+                        </div>
+                    </div>
+                </div>
             </section>
 
 
@@ -295,11 +327,3 @@
 </body>
 
 </html>
-
-
-
-
-
-
-
-
