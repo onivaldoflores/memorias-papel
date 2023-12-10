@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Memórias no Papel</title>
-    <link rel="shortcut icon" href="img/ico.png" type="image/x-icon">
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
 
     <script src="js/scripts.js"></script>
 
@@ -306,6 +306,38 @@
             
         </main>
     </div>
+    <footer class="container p-4">
+        <div class="row">
+            <div class="col-3 offset-3 text-white">
+                <h1>MAPA DO SITE</h1>
+                <ul>
+                    <li><a href="" class="stretched-link">Planos</a></li>
+                    <li><a href="">Dúvidas</a></li>
+                    <li><a href="">Contato</a></li>
+                </ul>
+            </div>
+            <div class="col-3 text-white">
+                <h1>INFORMAÇÕES</h1>
+                <ul>
+                    <li><a href="">Termo de Responsabilidade</a></li>
+                    <li><a href="">Política de Privacidade</a></li>
+                    <div class="d-flex align-items-center justify-content-around m-3">
+                        <a href=""><i class='bx bxl-facebook-circle fs-2 text-white'></i></a>
+                        <a href=""><i class='bx bxl-instagram fs-2 text-white'></i></a>
+                        <a href=""><i class='bx bxl-whatsapp fs-2 text-white'></i></a>
+                    </div>
+                </ul>
+            </div>
+            <div class="col-12 text-white text-center">
+                <hr>
+                <p>2020 ® Memórias no Papel. Todos os direitos reservados. <br>
+                O FLORES & CIA LTDA <br>
+                CNPJ 40.809.467/0001-00 <br>
+                <address>Av. Souza Naves, 945 - Sala 13 - Centro <br> CEP 86.870-000 - Ivaiporã - PR </address></p>
+            </div>
+        </div>
+
+    </footer>
 
 
     <!-- BOX ICONS JS -->

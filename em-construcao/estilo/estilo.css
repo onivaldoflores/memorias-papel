@@ -1,0 +1,62 @@
+@font-face {
+    font-family: gotham-bold;
+    src: url(../fonts/gotham-bold.TTF);
+}
+
+@font-face {
+    font-family: gotham-light;
+    src: url(../fonts/gotham-light.OTF);
+}
+
+@font-face {
+    font-family: ProductSans-Bold;
+    src: url(../fonts/ProductSans-Bold.ttf);
+}
+
+@font-face {
+    font-family: ProductSans-Regular;
+    src: url(../fonts/ProductSans-Regular.ttf);
+}
+
+body{
+    background-color: #6F6CB0 !important;
+}
+
+.cor-1{
+    background-color: #5B57A2;
+    height: 0.625rem;
+}
+
+.cor-2{
+    background-color: #27B6B0;
+    height: 0.625rem;
+}
+
+.cor-3{
+    background-color: #F69472;
+    height: 0.625rem;
+}
+
+.breve{
+    color: #FFF;
+    text-align: center;
+    font-family: ProductSans-Bold;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.revele{
+    color: #FFF;
+    text-align: center;
+    font-family: ProductSans-Regular;
+    font-size: 1.375rem;
+
+}
+
+.footer{
+    font-family: ProductSans-Regular;
+    font-size: 0.9rem;
+}
+
