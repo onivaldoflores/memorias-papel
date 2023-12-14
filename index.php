@@ -6,15 +6,10 @@
     <title>Memórias no Papel</title>
     <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
 
-    <script src="js/scripts.js"></script>
-
     <!--LINKS BOOTSTRAP-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 
-    <link rel="stylesheet" href="estilo/estilo.css">
-
-    <!--SCRIPTS BOOTSTRAP-->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    
 
     <!-- CSS BOX ICONS -->
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
@@ -22,36 +17,19 @@
     <!-- CSS SWIPER -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 
+    <script src="js/scripts.js"></script>
+    <link rel="stylesheet" href="estilo/estilo.css">
+
+    <!--SCRIPTS BOOTSTRAP-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 
 </head>
 
 <body>
     <!-- TOPO -->
-    <div class="container topo">
-        <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
-            <div class="col-md-3 mb-2 mb-md-0 text-center">
-                <a href="#" class="d-inline-flex link-body-emphasis text-decoration-none">
-                    <img src="img/logo-home.png" class="img-fluid" alt="">
-                </a>
-            </div>
-
-            <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
-                <li><a href="#" class="nav-link px-2 link-secondary">HOME</a></li>
-                <li><a href="#" class="nav-link px-2">PLANOS</a></li>
-                <li><a href="#" class="nav-link px-2">DÚVIDAS</a></li>
-                <li><a href="#" class="nav-link px-2">CONTATO</a></li>
-            </ul>
-
-            <div class="col-md-3 text-end ">
-                <div class="d-flex align-items-center justify-content-around ">
-                    <button type="button" class="btn btn-secundary text-white"><i class='bx bx-log-in'></i> ENTRAR</button>
-                    <a href=""><i class='bx bxl-facebook-circle fs-2 social-icons-color'></i></a>
-                    <a href=""><i class='bx bxl-instagram fs-2 social-icons-color'></i></a>
-                    <a href=""><i class='bx bxl-whatsapp fs-2 social-icons-color'></i></a>
-                </div>
-            </div>
-        </header>
-    </div>
+    <?php
+        require_once('header.php');
+    ?>
     <!------------------------>
 
     <div class="container">
@@ -60,11 +38,9 @@
             <section>
                 <div class="swiper mySwiper">
                     <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                            <img src="img/banner.png" class="img-fluid" alt="">
-                        </div>
-                        <div class="swiper-slide">Slide 2</div>
-                        <div class="swiper-slide">Slide 3</div>
+                        <div class="swiper-slide"><img src="img/banner-p.png" class="img-fluid" alt="Fotos no formato Polaroid"></div>
+                        <div class="swiper-slide"><img src="img/banner-2.png" class="img-fluid" alt="Fotos no formato Polaroid"></div>
+                        <div class="swiper-slide"><img src="img/banner-3.png" class="img-fluid" alt="Fotos no formato Polaroid"></div>
                         <div class="swiper-slide">Slide 4</div>
                         <div class="swiper-slide">Slide 5</div>
                         <div class="swiper-slide">Slide 6</div>
@@ -269,11 +245,11 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-md-12 col-lg-5 text-start p-3 color-contact-home">
-                            <p class="align-text-top"><i class='bx bxl-whatsapp p-1' ></i> <label><a href="https://web.whatsapp.com/send?phone=5543991811698">+55 (43) 99181-1698</a></label></p>
-                            <p><i class='bx bx-envelope p-1' ></i> <label> contato@memoriasnopapel.com.br</label></p>
-                            <p><i class='bx bxl-facebook-circle p-1' > </i><label> @memoriasnopapel</label></p>
-                            <p class="align-text-top"><i class='bx bx-location-plus p-1' ></i> <label> Av. Souza Naves, 945 - Sala 13 <br> Centro | Ivaiporã | PR | CEP 86.870-000</label></p>
-                            <p><i class='bx bxl-instagram p-1' ></i> <label> @memoriasnopapell</label></p>
+                            <p class="align-text-top"><a href="https://wa.me/554334721917" target="_blank"><i class='bx bxl-whatsapp p-1' ></i> +55 (43) 3472-1917</a></p>
+                            <p><i class='bx bx-envelope p-1' ></i>  contato@memoriasnopapel.com.br</p>
+                            <p><i class='bx bxl-facebook-circle p-1' > </i> @memoriasnopapel</p>
+                            <p class="align-text-top"><i class='bx bx-location-plus p-1' ></i>  Av. Souza Naves, 945 - Sala 13 <br> Centro | Ivaiporã | PR | CEP 86.870-000</p>
+                            <p><a href="https://www.instagram.com/memoriasnopapell/" target="_blank"><i class='bx bxl-instagram p-1' ></i> @memoriasnopapell</a></p>
                         </div>
                         <div class="col">
                             <form action="">
@@ -306,38 +282,12 @@
             
         </main>
     </div>
-    <footer class="container p-4">
-        <div class="row">
-            <div class="col-3 offset-3 text-white">
-                <h1>MAPA DO SITE</h1>
-                <ul>
-                    <li><a href="" class="stretched-link">Planos</a></li>
-                    <li><a href="">Dúvidas</a></li>
-                    <li><a href="">Contato</a></li>
-                </ul>
-            </div>
-            <div class="col-3 text-white">
-                <h1>INFORMAÇÕES</h1>
-                <ul>
-                    <li><a href="">Termo de Responsabilidade</a></li>
-                    <li><a href="">Política de Privacidade</a></li>
-                    <div class="d-flex align-items-center justify-content-around m-3">
-                        <a href=""><i class='bx bxl-facebook-circle fs-2 text-white'></i></a>
-                        <a href=""><i class='bx bxl-instagram fs-2 text-white'></i></a>
-                        <a href=""><i class='bx bxl-whatsapp fs-2 text-white'></i></a>
-                    </div>
-                </ul>
-            </div>
-            <div class="col-12 text-white text-center">
-                <hr>
-                <p>2020 ® Memórias no Papel. Todos os direitos reservados. <br>
-                O FLORES & CIA LTDA <br>
-                CNPJ 40.809.467/0001-00 <br>
-                <address>Av. Souza Naves, 945 - Sala 13 - Centro <br> CEP 86.870-000 - Ivaiporã - PR </address></p>
-            </div>
-        </div>
 
-    </footer>
+    <!-----RODAPÉ ------->
+    <?php
+        require_once('footer.php');
+    ?>
+    <!------------------->
 
 
     <!-- BOX ICONS JS -->
@@ -348,12 +298,12 @@
 
     <!-- Initialize Swiper -->
     <script>
-        var swiper = new Swiper(".mySwiper", {
-            navigation: {
-                nextEl: ".swiper-button-next",
-                prevEl: ".swiper-button-prev",
-            },
-        });
+    var swiper = new Swiper(".mySwiper", {
+        navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+        },
+    });
     </script>
 
 </body>

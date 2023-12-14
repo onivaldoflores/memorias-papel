@@ -20,6 +20,10 @@
     src: url(../fonts/ProductSans-Regular.ttf);
 }
 
+body{
+    font-family: ProductSans-Regular !important;
+}
+
 
 
 /*************************MINHAS PERSONALIZAÇÕES*************************/
@@ -114,10 +118,6 @@
     border: none;
     color: #fff;
     font-size: 1.1rem;
-    
-}
-
-.accordion-body{
     
 }
 
